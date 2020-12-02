@@ -6,6 +6,11 @@ public class Principal {
         return a + b;
     }
 
+    // metodo subtracao
+    public static int sub(int a, int b){
+        return a - b;
+    }
+
     public static void main(String[] args) {
 
         // receber operando operador e operando com argumentos de linha de comandos
