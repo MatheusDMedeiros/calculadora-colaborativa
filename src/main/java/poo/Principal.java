@@ -11,10 +11,6 @@ public class Principal {
         return a * b;
     }
 
-    public static int mult(int a, int b){
-
-        return a * b;
-    }
 
     // metodo subtracao
     public static int sub(int a, int b){
