@@ -6,6 +6,11 @@ public class Principal {
         return a + b;
     }
 
+    public static int mult(int a, int b){
+
+        return a * b;
+    }
+
     // metodo subtracao
     public static int sub(int a, int b){
         return a - b;
@@ -30,10 +35,10 @@ public class Principal {
             case "+":
                 System.out.println("Resultado: " + soma(op1, op2));
                 break;
-            case "-":
-                System.out.println("Resultado: " );
+            case "*":
+                System.out.println("Resultado: " + mult(op1, op2));
                 break;
-            case "x":
+            case "-":
                 System.out.println("Resultado: " );
                 break;
             case "/":
