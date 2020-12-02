@@ -13,6 +13,11 @@ public class Principal {
 
     public static void main(String[] args) {
 
+        if (args.length != 3 ) {
+            System.err.println("Syntax errada, não foi possivel completar a operação!");
+            System.exit(1);
+        }
+
         // receber operando operador e operando com argumentos de linha de comandos
         // 1 + 1
 
