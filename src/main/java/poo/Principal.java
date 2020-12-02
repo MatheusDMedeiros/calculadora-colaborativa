@@ -26,7 +26,7 @@ public class Principal {
                 System.out.println("Resultado: " + soma(op1, op2));
                 break;
             case "*":
-                System.out.println("Resultado: " + soma(op1, op2));
+                System.out.println("Resultado: " + mult(op1, op2));
                 break;
             default:
                 System.out.println("Operador inválido");
