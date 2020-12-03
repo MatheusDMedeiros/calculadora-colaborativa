@@ -38,6 +38,12 @@ public class Principal {
             case "*":
                 System.out.println("Resultado: " + mult(op1, op2));
                 break;
+            case "-":
+                System.out.println("Resultado: " );
+                break;
+            case "/":
+                System.out.println("Resultado: " );
+                break;
             default:
                 System.out.println("Operador inválido");
         }
